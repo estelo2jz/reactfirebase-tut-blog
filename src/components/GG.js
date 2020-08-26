@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import { database } from '../firebase';
 import _ from 'lodash';
 import ReactQuill from 'react-quill';
-import 'react-quill/dist/quill.snow.css';
+import '../containers/node_modules/react-quill/dist/quill.snow.css';
 import renderHTML from 'react-render-html';
 
 class App extends Component {
